@@ -9,8 +9,7 @@
 
 	</head>
 	<body>
-	   <div id='main_cotent'>
-	   <div class="calculator container-fluid">
+	    <div class="calculator container-fluid">
 	       <div class="row">
 	          <div class="placeholder-screen text-right">
 	              <h7 id="place_hldr" data-bind="text: placeholder()"></h7>
@@ -27,7 +26,6 @@
 	        <div class="calculator-numpad">
 	           <div class="row text-center">
 	               <!--ko foreach: buttons-->
-	      
 	               <button class="col-3" data-bind="text: text, 
 					            click: onClick,
 					            style: { 
@@ -35,11 +33,9 @@
 					              'font-weight': text === '.' ? 700 : 400 
 					            }">
 		       </button>
-	    
-	              <!--/ko-->
+	               <!--/ko-->
 	           </div>
 	        </div>
-	    </div>
 	    </div>
 	</body>
 
