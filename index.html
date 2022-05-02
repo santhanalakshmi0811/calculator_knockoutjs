@@ -2,8 +2,7 @@
 	<head>
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <link href="css/style.css" rel="stylesheet" type="text/css" />
-	    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">--->
-
+	    
 	    <script src="js/knockout.js"></script>
 	    <script src="js/main.js" defer="defer"></script>
 
@@ -30,7 +29,8 @@
 					            click: onClick,
 					            style: { 
 					              cursor: onClick === '' ? 'default' : 'pointer',
-					              'font-weight': text === '.' ? 700 : 400 
+					              'font-weight': text === '.' ? 700 : 400 ,
+					              'width': text === 'submit'||text === 'reset'||text === '='? '49%' : ''
 					            }">
 		       </button>
 	               <!--/ko-->

@@ -28,7 +28,7 @@ function CalculatorViewModel() {
     { text: 'DEL', onClick: deleteDigit },
     { text: '%', onClick: clickOperator },
     { text: '=', onClick: getTotal },
-    { text: 'sub', onClick: getTotal },
+    { text: 'submit', onClick: getTotal },
     { text: 'reset', onClick: clear}
   ];
   
